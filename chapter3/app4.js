@@ -1,4 +1,8 @@
 var user_hand = prompt('じゃんけんの手をグー、チョキ、パーの中から選んでください。');
+while ((user_hand != "グー") && (user_hand != "チョキ") && (user_hand != "パー") && (user_hand != "null")){
+	alert('グー、チョキ、パーのいずれかを選んでください');
+	user_hand = prompt('グー、チョキ、パーを選んでください');
+}
 
 var js_hand = getJShand();
 
