@@ -26,4 +26,4 @@ do{
 	count = count + 1;
 }
 
-alert('int1にint')
+alert('int1にint3を足し続けて' + max + 'を越えるのに必要だった回数は' + count + '回です');
